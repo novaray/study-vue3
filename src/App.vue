@@ -2,7 +2,8 @@
   <div id="nav">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
-    <router-link to="/testpage">testpage</router-link>
+    <router-link to="/testpage">testpage</router-link> |
+    <router-link to="/syncpage">Sync&AsyncPage</router-link>
   </div>
   <router-view/>
 </template>
