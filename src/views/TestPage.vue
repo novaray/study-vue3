@@ -27,8 +27,8 @@
 <script>
 import { defineComponent } from 'vue'
 import MyComponent from '@/components/MyComponent'
-import TodoList from '@/components/TodoList'
-import SlotLayout from '@/components/SlotLayout'
+import TodoList from '@/components/slot/TodoList'
+import SlotLayout from '@/components/slot/SlotLayout'
 import ProvideParent from '@/components/provide/ProvideParent'
 
 export default defineComponent({
