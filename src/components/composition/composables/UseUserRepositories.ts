@@ -1,5 +1,5 @@
 import { fetchUserRepositories } from '../api/CompositionAPI'
-import { ref, onMounted, watch, toRefs, Ref } from 'vue'
+import { ref, onMounted, watch, Ref } from 'vue'
 import { User } from '@/components/composition/interfaces/Interface'
 
 export default function useUserRepositories (age: Ref<number>) {
